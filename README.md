@@ -100,6 +100,15 @@ function doAll(arrayOfFunctions) {
 }
 ```
 
+Output:
+
+```
+Happy birthday to you!
+Happy birthday to you!
+Happy birthday Steve Jobs!!
+Happy birthday to you!
+```
+
 ## Common High Order Functions
 Saving functions into variables, and passing functions as parameters, and
 returning functions from functions open a whole new world of **functional
@@ -149,6 +158,14 @@ function greet(name) {
 });
 
 forEach(names, greet);
+```
+
+Output:
+
+```
+Hello Sam!
+Hello Beth!
+Hello Carol!
 ```
 
 ## map
