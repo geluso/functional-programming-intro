@@ -53,7 +53,16 @@ Now we know that the whole point of functional programming is to strive to
 make our programs behave more like pure mathematical functions where the same
 input is guaranteed to produce the same output without side effects.
 
-Good. So how do we do that? First, let's take a look at higher order functions.
+We'll soon see how [Redux](http://redux.js.org/) applies these ideas from
+functional programming to help developers create more pure applications that 
+eliminate side effects and perform consistently, and become much easier to
+test too!
+
+So, so far these functionall programming techniques are all abstract and
+we haven't seen any concrete examples about how to reduce side effects
+and write pure functions. Let's get to it!
+
+First, let's take a look at higher order functions.
 
 ## Higher Order Functions
 JavaScript is an especially fun and powerful lanaguage because it supports
