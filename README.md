@@ -185,13 +185,3 @@ TODO: finish writing filter example upon contract negotiation
 
 ## reduce
 TODO: finish writing map example upon contract negotiation
-
-<h1>hello!</h1>
-<p>paragraph.</p>
-<ul>
-  <li>cheese</li>
-  <li>bread</li>
-</ul>
-
-<script>alert(2)</script>
-<script>console.log(2)</script>
