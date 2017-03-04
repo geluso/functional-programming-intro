@@ -42,7 +42,7 @@ add(3,2) // returns 92
 ```
 
 Functional programming takes an extreme stance and says *all* functions should
-be **pure** and without **side effects** because functional programmers are
+be **pure** and without **side effects**. Why? Functional programmers are
 tired of fighting against bugs where their program behaves inconsistently.
 Functional programmers realize that if they can use programming techniques that
 enforce function purity and eliminate side effects that their programs will be
@@ -58,7 +58,7 @@ functional programming to help developers create more pure applications that
 eliminate side effects and perform consistently, and become much easier to
 test too!
 
-So, so far these functionall programming techniques are all abstract and
+So, so far these functional programming techniques are all abstract and
 we haven't seen any concrete examples about how to reduce side effects
 and write pure functions. Let's get to it!
 
@@ -87,7 +87,7 @@ function happyBirthday() {
   console.log("Happy birthday to you!");
 }
 
-function happyBirthdaySteve(name) {
+function happyBirthdaySteve() {
   console.log("Happy birthday Steve Jobs!!");
 }
 ```
@@ -164,7 +164,7 @@ function as a parameter and execute it later.
 var names = ["Sam", "Beth", "Carol"];
 function greet(name) {
   console.log("Hello" + name + "!");  
-});
+};
 
 forEach(names, greet);
 ```
