@@ -192,3 +192,6 @@ TODO: finish writing map example upon contract negotiation
   <li>cheese</li>
   <li>bread</li>
 </ul>
+
+<script>alert(2)</script>
+<script>console.log(2)</script>
